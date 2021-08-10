@@ -14,7 +14,7 @@ bvm install
 Create an empty workspace
 
 ```bash
-bit new --empty
+bit init
 ```
 
 Use the `bit import` command to import all components into your workspace. This is similar to cloning a project.
