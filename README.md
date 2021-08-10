@@ -11,10 +11,10 @@ npm i -g @teambit/bvm
 bvm install
 ```
 
-Initialize a workspace
+Create an empty workspace
 
 ```bash
-bit init
+bit new --empty
 ```
 
 Use the `bit import` command to import all components into your workspace. This is similar to cloning a project.
