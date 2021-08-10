@@ -11,16 +11,24 @@ npm i -g @teambit/bvm
 bvm install
 ```
 
-Then you can use the `bit import` command to import all components into your workspace.
+Initialize a workspace
+
+```bash
+bit init
+```
+
+Use the `bit import` command to import all components into your workspace. This is similar to cloning a project.
 
 ```bash
 bit import "learn-bit-react.ecommerce/*"
 ```
 
+Copy the `workspace.jsonc` file from this repository and replace the one in your workspace. This will ensure you have the correct dependencies and environments set.
+
 Start the dev server
 
 ```bash
 bit start
-````
+```
 
 You should now see all the ecommerce components on http://localhost:3000/
