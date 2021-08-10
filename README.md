@@ -17,5 +17,10 @@ Then you can use the `bit import` command to import all components into your wor
 bit import "learn-bit-react.ecommerce/*"
 ```
 
-This will import all the components from this scope.
+Start the dev server
 
+```bash
+bit start
+````
+
+You should now see all the ecommerce components on http://localhost:3000/
