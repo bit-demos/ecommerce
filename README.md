@@ -31,4 +31,4 @@ Start the dev server
 bit start
 ```
 
-You should now see all the ecommerce components on http://localhost:3000/
+You should now see all the ecommerce components on [localhost:3000](http://localhost:3000)
