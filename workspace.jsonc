@@ -1,0 +1,70 @@
+{
+  "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
+  "teambit.workspace/workspace": {
+    "name": "Learn Bit - React",
+    "icon": "https://static.bit.dev/bit-logo.svg",
+    "defaultDirectory": "{scope}/{name}",
+    "defaultScope": "learn-bit-react.ecommerce"
+  },
+  // Generator Aspects
+  "teambit.generator/generator": {
+    "aspects": [
+      "learn-bit-react.base-ui/component-generator"
+    ]
+  },
+  "learn-bit-react.base-ui/component-generator": {},
+  "teambit.dependencies/dependency-resolver": {
+    "packageManager": "teambit.dependencies/pnpm",
+    "policy": {
+      "dependencies": {
+        "@learn-bit-react/base-ui.env.learn-bit-react": "1.0.0",
+        "@learn-bit-react/base-ui.ui.heading": "1.0.5",
+        "@learn-bit-react/base-ui.ui.hero": "1.0.5",
+        "@learn-bit-react/base-ui.ui.img": "1.0.5",
+        "@learn-bit-react/base-ui.ui.link": "1.0.8",
+        "@learn-bit-react/base-ui.ui.nav": "1.0.5",
+        "@teambit/documenter.theme.theme-context": "3.0.9",
+        "@teambit/ui.mdx-layout": "0.0.346",
+        "@teambit/ui.react-router.link": "0.0.368",
+        "@testing-library/jest-dom": "5.12.0",
+        "@testing-library/react": "11.2.6",
+        "@testing-library/react-hooks": "5.1.1",
+        "classnames": "2.3.1",
+        "react-helmet": "6.1.0",
+        "react-router": "5.2.0",
+        "react-router-dom": "5.2.0"
+      },
+      "peerDependencies": {
+        "react": "16.13.1",
+        "react-dom": "16.13.1"
+      }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
+    "strictPeerDependencies": true,
+    "installFromBitDevRegistry": true,
+    "savePrefix": ""
+  },
+  "teambit.workspace/variants": {
+    "{ui/**}": {
+      "learn-bit-react.base-ui/env/learn-bit-react": {}
+    },
+    "{styles/**}, {themes/*}, , {figma/*}": {
+      "teambit.react/react": {}
+    },
+    "{env/*}, {apps/*}": {
+      "teambit.harmony/aspect": {}
+    },
+    "{component-generator}, {workspace-generator}": {
+      "teambit.harmony/aspect": {}
+    },
+    "{entity/*}": {
+      "teambit.harmony/node": {}
+    },
+    "{content/*}": {
+      "teambit.mdx/mdx": {}
+    }
+  }
+}

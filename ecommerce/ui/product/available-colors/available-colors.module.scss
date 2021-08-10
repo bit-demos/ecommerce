@@ -1,0 +1,30 @@
+.color-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+.color-list-item {
+  margin-right: 1rem;
+  list-style: none;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.color-outer-circle {
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  padding: 0.125rem;
+  display: block;
+  border-width: 2px;
+  border-radius: 9999px;
+  border: 2px solid #a0aec0;
+}
+.color-circle {
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  border-radius: 9999px;
+}

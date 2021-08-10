@@ -1,0 +1,42 @@
+---
+description: 'A ProductCard component composed from smaller components'
+labels: ['card', 'product']
+---
+
+import { ProductCard } from './product-card';
+
+## Product Card
+
+An exmple usage of how to create a product card composed of smaller components. Props are used and passed down to the component.
+
+### Component usage
+
+```js
+import { ProductCard } from '@learn-bit-react/ecommerce.ui.product.product-card';
+```
+
+```js
+<ProductCard
+  title="Nike Air"
+  text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus"
+  alt="Nike Air"
+  src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHNuZWFrZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  price={160}
+  buttonText="add to cart"
+/>
+```
+
+### Using props to customize the product
+
+Modify the props to see it change live:
+
+```js live
+<ProductCard
+  title="Nike Air"
+  text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus"
+  alt="Nike Air"
+  src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHNuZWFrZXJ8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+  price={160}
+  buttonText="add to cart"
+/>
+```
