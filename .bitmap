@@ -21,6 +21,12 @@
         "mainFile": "index.ts",
         "rootDir": "ecommerce/entity/product"
     },
+    "readme": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "readme"
+    },
     "ui/footer": {
         "scope": "learn-bit-react.ecommerce",
         "version": "1.0.8",
