@@ -17,73 +17,73 @@
     },
     "entity/product": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/entity/product"
     },
     "readme": {
-        "scope": "",
-        "version": "",
+        "scope": "learn-bit-react.shoe-store",
+        "version": "0.0.1",
         "mainFile": "index.ts",
         "rootDir": "readme"
     },
     "ui/footer": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/footer"
     },
     "ui/header": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/header"
     },
     "ui/logo-text": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/logo-text"
     },
     "ui/pages/about": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.9",
+        "version": "1.0.10",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/pages/about"
     },
     "ui/pages/home-page": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/pages/home-page"
     },
     "ui/product/available-colors": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/product/available-colors"
     },
     "ui/product/price": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.5",
+        "version": "1.0.6",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/product/price"
     },
     "ui/product/product-card": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/product/product-card"
     },
     "ui/product/product-card-grid": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.8",
+        "version": "1.0.9",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/product/product-card-grid"
     },
     "ui/store-hero": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/store-hero"
     },
