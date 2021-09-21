@@ -23,7 +23,7 @@
     },
     "readme": {
         "scope": "learn-bit-react.shoe-store",
-        "version": "0.0.1",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "readme"
     },
