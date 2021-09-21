@@ -7,8 +7,9 @@ export const BasicHeader = () => (
     <Header
       logoText="Bit Sports Store"
       src="https://static.bit.dev/bit-logo.svg"
-      alt="Bit Logo">
+      alt="Bit Logo"
+    >
       add some links here
-    </Header>{' '}
+    </Header>
   </MemoryRouter>
 );

@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--primary-color, #1a202c);
+  width: 100%;
 }
 
 .logo {
@@ -16,9 +17,11 @@
 
 .logo-text {
   margin-left: 10px;
+  color: var(--secondary-color, #fff);
 }
 
 .nav {
+  color: var(--secondary-color, #fff);
   display: flex;
   a {
     margin-left: 20px;

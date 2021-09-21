@@ -7,8 +7,9 @@ export const BasicFooter = () => (
     <Footer
       logoText="Bit Perfume Store"
       src="https://static.bit.dev/bit-logo.svg"
-      alt="Bit Logo">
+      alt="Bit Logo"
+    >
       Links go here
-    </Footer>{' '}
+    </Footer>
   </MemoryRouter>
 );

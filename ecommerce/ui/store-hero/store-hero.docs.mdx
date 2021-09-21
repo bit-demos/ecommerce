@@ -4,31 +4,32 @@ labels: ['hero']
 ---
 
 import { StoreHero } from './store-hero';
-
-## Hero
+import { MemoryRouter } from 'react-router';
 
 A here component for the Store
 
-### Component usage
-
-```js
-<StoreHero
-  headingText="store heading"
-  linkText="click me"
-  href="/"
-  background="blue"
-/>
-```
-
-### Using props to customize the text
-
-Modify the text to see it change live:
+### Basic Store Hero
 
 ```js live
-<StoreHero
-  headingText="store heading"
-  linkText="click me"
-  href="/"
-  background="blue"
-/>
+<MemoryRouter>
+  <StoreHero
+    headingText="store heading"
+    linkText="click me"
+    href="/"
+    background="blue"
+  />
+</MemoryRouter>
+```
+
+### Store Hero with background image
+
+```js live
+<MemoryRouter>
+  <StoreHero
+    headingText="store heading"
+    linkText="click me"
+    href="/home"
+    background="url(https://images.unsplash.com/photo-1592860986140-d77ede8b7116?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80) no-repeat center center scroll"
+  />
+</MemoryRouter>
 ```

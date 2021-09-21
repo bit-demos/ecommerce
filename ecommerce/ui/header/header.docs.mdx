@@ -4,13 +4,32 @@ labels: ['header']
 ---
 
 import { Header } from './header';
-
-## Header Component
+import { MemoryRouter } from 'react-router';
 
 A header component that renders everything needed for the header including logo and navigation links
 
-### Component usage
+### Simple Header
 
-```js
-<Header />
+```js live
+<MemoryRouter>
+  <Header
+    logoText="Bit Sports Store"
+    src="https://static.bit.dev/bit-logo.svg"
+    alt="Bit Logo"
+  ></Header>
+</MemoryRouter>
+```
+
+### Header with Navigation
+
+```js live
+<MemoryRouter>
+  <Header
+    logoText="Bit Sports Store"
+    src="https://static.bit.dev/bit-logo.svg"
+    alt="Bit Logo"
+  >
+    add your links here
+  </Header>
+</MemoryRouter>
 ```

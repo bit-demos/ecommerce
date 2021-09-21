@@ -30,7 +30,7 @@ export function Footer({
           logoText={logoText}
         />
       </div>
-      <Nav>{children}</Nav>
+      <Nav className={classNames(styles.nav, className)}>{children}</Nav>
     </footer>
   );
 }

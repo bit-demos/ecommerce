@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color, #1a202c);
+  width: 100%;
 }
 
 .logo {
@@ -14,7 +15,6 @@
 
 .logo-text {
   margin-left: 10px;
-  margin-top: -10px;
 }
 
 .nav {
