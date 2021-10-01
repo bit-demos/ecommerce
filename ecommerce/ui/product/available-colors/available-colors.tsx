@@ -18,13 +18,12 @@ export function AvailableColors({
       {availableColors.map((color) => {
         return (
           <li className={styles['color-list-item']} key={color}>
-            <span className={styles['color-outer-circle']}>
-              <span
-                aria-label={color}
-                data-testid={color}
-                className={styles['color-circle']}
-                style={{ backgroundColor: color }}></span>
-            </span>
+            <span
+              aria-label={color}
+              data-testid={color}
+              className={styles['color-circle']}
+              style={{ backgroundColor: color }}
+            ></span>
           </li>
         );
       })}

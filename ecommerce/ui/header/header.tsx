@@ -8,9 +8,18 @@ import {
 import { Nav } from '@learn-bit-react/base-ui.ui.nav';
 import { ThemeToggler } from '@learn-bit-react/base-ui.ui.theme-toggler';
 import { Link } from '@learn-bit-react/base-ui.ui.link';
+import { UserAvatar } from '@teambit/design.ui.avatar';
 import styles from './header.module.scss';
 
 export type HeaderProps = {} & React.HTMLAttributes<HTMLElement>;
+const accounts = {
+  defAccount: {
+    name: 'defaultAccount',
+    type: 'default',
+    profileImage: 'https://static.bit.dev/harmony/support.svg'
+  },
+  noPicOrgAccount: { name: 'defaultAccount', type: 'organization' }
+};
 
 export function Header({
   className,
@@ -26,12 +35,19 @@ export function Header({
           <Img src={src} alt={alt} />
         </Link>
         <LogoText
-          className={classNames(styles['logo-text'], className)}
+          className={classNames(styles.logoText, className)}
           logoText={logoText}
         />
       </div>
-      <Nav>{children}</Nav>
-      <ThemeToggler />
+      <Nav className={classNames(styles.nav, className)}>{children}</Nav>
+      <div>
+        <ThemeToggler />
+        <UserAvatar
+          size={32}
+          account={accounts.noPicOrgAccount}
+          className={styles.avatar}
+        />
+      </div>
     </header>
   );
 }

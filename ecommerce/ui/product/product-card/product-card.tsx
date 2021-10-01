@@ -1,10 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link } from '@learn-bit-react/base-ui.ui.link';
+import { Button } from '@learn-bit-react/base-ui.ui.button';
 import { Card } from '@learn-bit-react/base-ui.ui.card';
 import { Heading } from '@learn-bit-react/base-ui.ui.heading';
 import { Text } from '@learn-bit-react/base-ui.ui.text';
-import { Price } from '@learn-bit-react/ecommerce.ui.product.price';
+import { Currency } from '@learn-bit-react/ecommerce.ui.product.currency';
 import { Img } from '@learn-bit-react/base-ui.ui.img';
 import { AvailableColors } from '@learn-bit-react/ecommerce.ui.product.available-colors';
 import styles from './product-card.module.scss';
@@ -68,10 +68,8 @@ export function ProductCard({
         ) : null}
       </div>
       <div className={classNames(styles['card-footer'], className)}>
-        <Price price={price} />
-        <Link href={`/${title.toLowerCase()}`} buttonClass variation="primary">
-          {buttonText}
-        </Link>
+        <Currency price={price} />
+        <Button primary>{buttonText}</Button>
       </div>
     </Card>
   );

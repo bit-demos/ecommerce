@@ -22,11 +22,11 @@ export function Footer({
   return (
     <footer className={classNames(styles.footer, className)}>
       <div className={classNames(styles.logo, className)}>
-        <Link href="/">
+        <Link href="/" className={styles.link}>
           <Img src={src} alt={alt} />
         </Link>
         <LogoText
-          className={classNames(styles['logo-text'], className)}
+          className={classNames(styles.logoText, className)}
           logoText={logoText}
         />
       </div>

@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "learn-bit-react.shoe-store"
+    "defaultScope": "learn-bit-react.ecommerce"
   },
   /**
    * main configuration for component dependency resolution.
@@ -45,6 +45,7 @@
         "@learn-bit-react/base-ui.ui.img": "1.0.5",
         "@learn-bit-react/base-ui.ui.link": "1.0.8",
         "@learn-bit-react/base-ui.ui.nav": "1.0.5",
+        "@learn-bit-react/shoe-store.readme": "0.0.4",
         "@teambit/documenter.theme.theme-context": "3.0.9",
         "@teambit/ui.mdx-layout": "0.0.346",
         "@teambit/ui.react-router.link": "0.0.368",
@@ -66,7 +67,6 @@
     "installFromBitDevRegistry": true,
     "savePrefix": ""
   },
-
   /**
    * Generator Aspects to generate custom components.
    **/
@@ -74,7 +74,6 @@
     "aspects": ["learn-bit-react.base-ui/component-generator"]
   },
   "learn-bit-react.base-ui/component-generator": {},
-
   /**
    * workspace variants allow to set different subsets of configuration for components in your
    * workspace. this is extremely useful for upgrading, aligning and building components with a new
@@ -84,7 +83,7 @@
    **/
   "teambit.workspace/variants": {
     "{ui/**}": {
-      "learn-bit-react.base-ui/env/learn-bit-react": {}
+      "learn-bit-react.base-ui/env/learn-bit-react@1.0.10": {}
     },
     "{styles/**}, {themes/*}, , {figma/*}": {
       "teambit.react/react": {}

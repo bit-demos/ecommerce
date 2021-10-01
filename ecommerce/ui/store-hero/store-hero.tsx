@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import { Link } from '@learn-bit-react/base-ui.ui.link';
+import { Button } from '@learn-bit-react/base-ui.ui.button';
 import { Heading } from '@learn-bit-react/base-ui.ui.heading';
 import { Hero } from '@learn-bit-react/base-ui.ui.hero';
 import styles from './store-hero.module.scss';
@@ -19,7 +19,7 @@ export type StoreHeroProps = {
    */
   linkText: string;
   /**
-   * href of where the link goes to
+   * Button styling variation
    */
   href: string;
 } & React.HTMLAttributes<HTMLDivElement>;
@@ -34,11 +34,12 @@ export function StoreHero({
   return (
     <Hero
       className={classNames(styles.hero, className)}
-      background={background}>
+      background={background}
+    >
       <Heading className={styles.heading}>{headingText}</Heading>
-      <Link className={styles.link} href={href}>
+      <Button as="a" white href={href}>
         {linkText}
-      </Link>
+      </Button>
     </Hero>
   );
 }

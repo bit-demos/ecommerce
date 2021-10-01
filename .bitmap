@@ -35,13 +35,13 @@
     },
     "ui/header": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.10",
+        "version": "1.0.11",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/header"
     },
     "ui/logo-text": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/logo-text"
     },
@@ -59,19 +59,25 @@
     },
     "ui/product/available-colors": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "0.0.7",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/product/available-colors"
     },
+    "ui/product/currency": {
+        "scope": "learn-bit-react.ecommerce",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "ecommerce/ui/product/currency"
+    },
     "ui/product/price": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.7",
+        "version": "1.0.8",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/product/price"
     },
     "ui/product/product-card": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.10",
+        "version": "1.0.13",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/product/product-card"
     },
@@ -83,7 +89,7 @@
     },
     "ui/store-hero": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "0.0.10",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/store-hero"
     },

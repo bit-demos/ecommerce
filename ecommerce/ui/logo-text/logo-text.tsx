@@ -11,8 +11,6 @@ export type LogoTextProps = {
 
 export function LogoText({ logoText, className }: LogoTextProps) {
   return (
-    <span className={classNames(styles['logo-text'], className)}>
-      {logoText}
-    </span>
+    <span className={classNames(styles.logoText, className)}>{logoText}</span>
   );
 }
