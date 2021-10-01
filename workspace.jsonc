@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -54,7 +54,8 @@
         "@testing-library/react-hooks": "5.1.1",
         "classnames": "2.3.1",
         "react-router": "5.2.0",
-        "react-router-dom": "5.2.0"
+        "react-router-dom": "5.2.0",
+        "readme": "0.7.0"
       },
       "peerDependencies": {
         "react": "16.13.1",
@@ -62,7 +63,9 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts"],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
@@ -71,7 +74,9 @@
    * Generator Aspects to generate custom components.
    **/
   "teambit.generator/generator": {
-    "aspects": ["learn-bit-react.base-ui/component-generator"]
+    "aspects": [
+      "learn-bit-react.base-ui/component-generator"
+    ]
   },
   "learn-bit-react.base-ui/component-generator": {},
   /**
