@@ -60,15 +60,15 @@ export function ProductCard({
       </div>
       <div className={classNames(styles['card-body'], className)}>
         <Img alt={alt} src={src} className={styles.img} />
+      </div>
+      <div className={classNames(styles['card-footer'], className)}>
+        <Currency price={price} />
         {availableColors ? (
           <AvailableColors
             className={styles['available-colors']}
             availableColors={availableColors}
           />
         ) : null}
-      </div>
-      <div className={classNames(styles['card-footer'], className)}>
-        <Currency price={price} />
         <Button primary>{buttonText}</Button>
       </div>
     </Card>
