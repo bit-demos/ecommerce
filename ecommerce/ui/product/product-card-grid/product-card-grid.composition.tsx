@@ -1,5 +1,4 @@
 import React from 'react';
-import { MemoryRouter } from 'react-router';
 
 import {
   mockProductList,
@@ -11,25 +10,17 @@ import {
 import { ProductCardGrid } from './product-card-grid';
 
 export const BasicProductCardGrid = () => (
-  <MemoryRouter>
-    <ProductCardGrid list={mockProductList} />
-  </MemoryRouter>
+  <ProductCardGrid list={mockProductList} />
 );
 
 export const ProductCardGrid2 = () => (
-  <MemoryRouter>
-    <ProductCardGrid list={mockProductList2} />
-  </MemoryRouter>
+  <ProductCardGrid list={mockProductList2} />
 );
 
 export const ProductCardGrid3 = () => (
-  <MemoryRouter>
-    <ProductCardGrid list={mockProductList3} />
-  </MemoryRouter>
+  <ProductCardGrid list={mockProductList3} />
 );
 
 export const ProductCardGrid4 = () => (
-  <MemoryRouter>
-    <ProductCardGrid list={mockProductList4} />
-  </MemoryRouter>
+  <ProductCardGrid list={mockProductList4} />
 );

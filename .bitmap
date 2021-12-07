@@ -35,7 +35,7 @@
     },
     "ui/header": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.11",
+        "version": "1.0.13",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/header"
     },
@@ -47,13 +47,13 @@
     },
     "ui/pages/about": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.11",
+        "version": "1.0.12",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/pages/about"
     },
     "ui/pages/home-page": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.11",
+        "version": "1.0.12",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/pages/home-page"
     },
@@ -83,7 +83,7 @@
     },
     "ui/product/product-card-grid": {
         "scope": "learn-bit-react.ecommerce",
-        "version": "1.0.11",
+        "version": "1.0.12",
         "mainFile": "index.ts",
         "rootDir": "ecommerce/ui/product/product-card-grid"
     },
