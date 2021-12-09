@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -39,7 +39,7 @@
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
       "dependencies": {
-        "@learn-bit-react/base-ui.env.learn-bit-react": "1.0.0",
+        "@learn-bit-react/base-ui.env.learn-bit-react": "1.0.11",
         "@learn-bit-react/base-ui.ui.heading": "1.0.5",
         "@learn-bit-react/base-ui.ui.hero": "1.0.5",
         "@learn-bit-react/base-ui.ui.img": "1.0.5",
@@ -61,7 +61,9 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts"],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
@@ -70,7 +72,9 @@
    * Generator Aspects to generate custom components.
    **/
   "teambit.generator/generator": {
-    "aspects": ["learn-bit-react.base-ui/component-generator"]
+    "aspects": [
+      "learn-bit-react.base-ui/component-generator"
+    ]
   },
   "learn-bit-react.base-ui/component-generator": {},
   /**
@@ -82,7 +86,7 @@
    **/
   "teambit.workspace/variants": {
     "{ui/**}": {
-      "learn-bit-react.base-ui/env/learn-bit-react@1.0.10": {}
+      "learn-bit-react.base-ui/env/learn-bit-react@1.0.11": {}
     },
     "{styles/**}, {themes/*}, , {figma/*}": {
       "teambit.react/react": {}
