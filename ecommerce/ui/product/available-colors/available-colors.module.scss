@@ -3,7 +3,9 @@
   align-items: center;
   list-style: none;
   padding: 0;
+  margin-top: 10px;
 }
+
 .color-list-item {
   margin: 0 6px;
   list-style: none;
@@ -15,6 +17,10 @@
   border-radius: 50%;
   &:hover {
     cursor: pointer;
+  }
+  &.active {
+    box-shadow: 0 0 0 2px rgba(43, 41, 41, 0.623), 0 0 0 4px black;
+    border-radius: 80%;
   }
 }
 

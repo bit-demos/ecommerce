@@ -17,7 +17,9 @@ importers:
       '@learn-bit-react/base-ui.ui.nav': 1.0.5
       '@learn-bit-react/base-ui.ui.text': 1.0.11
       '@learn-bit-react/base-ui.ui.theme-toggler': 1.0.7
+      '@learn-bit-react/ecommerce.entity.product': 1.0.3
       '@learn-bit-react/ecommerce.ui.logo-text': 1.0.8
+      '@learn-bit-react/ecommerce.ui.product.available-colors': 0.0.8
       '@learn-bit-react/ecommerce.ui.product.product-card': 1.0.15
       '@learn-bit-react/ecommerce.ui.store-hero': 0.0.11
       '@mdx-js/react': 1.6.22
@@ -51,7 +53,9 @@ importers:
       '@learn-bit-react/base-ui.ui.nav': 1.0.5_react-dom@16.13.1+react@16.13.1
       '@learn-bit-react/base-ui.ui.text': 1.0.11_react-dom@16.13.1+react@16.13.1
       '@learn-bit-react/base-ui.ui.theme-toggler': 1.0.7_react-dom@16.13.1+react@16.13.1
+      '@learn-bit-react/ecommerce.entity.product': 1.0.3
       '@learn-bit-react/ecommerce.ui.logo-text': 1.0.8_react-dom@16.13.1+react@16.13.1
+      '@learn-bit-react/ecommerce.ui.product.available-colors': 0.0.8_react-dom@16.13.1+react@16.13.1
       '@learn-bit-react/ecommerce.ui.product.product-card': 1.0.15_react-dom@16.13.1+react@16.13.1
       '@learn-bit-react/ecommerce.ui.store-hero': 0.0.11_react-dom@16.13.1+react@16.13.1
       '@mdx-js/react': registry.npmjs.org/@mdx-js/react/1.6.22_react@16.13.1
@@ -66,7 +70,6 @@ importers:
       core-js: registry.npmjs.org/core-js/3.19.3
       react: registry.npmjs.org/react/16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
-      react-router: registry.npmjs.org/react-router/5.2.0_react@16.13.1
       react-router-dom: registry.npmjs.org/react-router-dom/5.2.0_react@16.13.1
     devDependencies:
       '@babel/runtime': registry.npmjs.org/@babel/runtime/7.12.18
@@ -78,6 +81,7 @@ importers:
       '@types/react': registry.npmjs.org/@types/react/17.0.37
       '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.11
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
+      react-router: registry.npmjs.org/react-router/5.2.0_react@16.13.1
 
   ecommerce/content/about:
     specifiers: {}
@@ -386,6 +390,10 @@ packages:
       core-js: registry.npmjs.org/core-js/3.19.3
       react: registry.npmjs.org/react/16.13.1
       react-dom: registry.npmjs.org/react-dom/16.13.1_react@16.13.1
+    dev: false
+
+  /@learn-bit-react/ecommerce.entity.product/1.0.3:
+    resolution: {integrity: sha1-+WaPgYH0bXh6QPcpE0+6hixSvkI=, tarball: '@learn-bit-react/ecommerce.entity.product/-/@learn-bit-react-ecommerce.entity.product-1.0.3.tgz'}
     dev: false
 
   /@learn-bit-react/ecommerce.ui.logo-text/1.0.8_react-dom@16.13.1+react@16.13.1:
@@ -1994,7 +2002,7 @@ packages:
     resolution: {integrity: sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==, registry: https://node.bit.dev/, tarball: https://registry.npmjs.org/core-js/-/core-js-2.6.12.tgz}
     name: core-js
     version: 2.6.12
-    deprecated: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+    deprecated: core-js@<3.4 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
     requiresBuild: true
     dev: false
 

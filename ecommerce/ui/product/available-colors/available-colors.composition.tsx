@@ -2,5 +2,10 @@ import React from 'react';
 import { AvailableColors } from './available-colors';
 
 export const BasicAvailableColors = () => (
-  <AvailableColors availableColors={['red', 'green', 'blue']} />
+  <AvailableColors
+    colorSelected={(color) => {
+      alert(color);
+    }}
+    availableColors={['red', 'green', 'blue']}
+  />
 );

@@ -1,5 +1,5 @@
 export enum ProductType {
-  product = 'product'
+  product = 'product',
 }
 
 export type ProductFromApi = {
@@ -8,8 +8,8 @@ export type ProductFromApi = {
   alt: string;
   src: string;
   price: number;
-  buttonText: string;
-  variation?: 'primary' | 'secondary';
+  id: string;
+  rating: number;
 };
 
 export class Product {
@@ -35,24 +35,16 @@ export class Product {
      */
     public price: number,
     /**
-     * text for button
+     * id of the product
      */
-    public buttonText: string,
+    readonly id: string,
     /**
-     * variation of button
+     * rating of the product
      */
-    public variation?: 'primary' | 'secondary'
+    public rating: number
   ) {}
 
   static fromApiObject(object: ProductFromApi) {
-    return new Product(
-      object.title,
-      object.text,
-      object.alt,
-      object.src,
-      object.price,
-      object.buttonText,
-      object.variation
-    );
+    return new Product(object.title, object.text, object.alt, object.src, object.price, object.id, object.rating);
   }
 }
